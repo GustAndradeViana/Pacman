@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+}
+.labyrinth {
+    display: grid;
+    grid-template-columns: repeat(19, 20px);
+    gap: 0px;
+}
+.cell {
+    width: 20px;
+    height: 20px;
+}
+.wall {
+    background-color: blue;
+}
+.path {
+    background-color: black;
+}
+#pacman {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}
+.ghost {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}
